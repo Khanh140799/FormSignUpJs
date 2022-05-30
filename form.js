@@ -10,7 +10,7 @@ const password2Value = password2.value.trim();
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
-	
+	console.log(".");
 	checkInputs();
 });
 function checkInputs() {
@@ -72,3 +72,5 @@ function isEmail(email) {
 // close_btn.addEventListener('click', () => {
 // 	social_panel_container.classList.remove('visible')
 // });
+
+//Create Pull Request
